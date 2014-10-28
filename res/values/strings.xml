@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Cocoatok</string>
+    <string name="user_name">가입되는 아이디를 입력해주십시오 중복확인 후 중복되지 않는 아이디는 곧 고유의 아이디가 됩니다 한글 15자 영문 30자 이내로 써주시기 바랍니다</string>
+
+</resources>

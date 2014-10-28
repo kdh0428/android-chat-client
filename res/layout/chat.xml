@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    >
+
+    <ScrollView
+        android:id="@+id/char_scr"
+        android:layout_width="fill_parent"
+        android:layout_height="655px"
+        android:fadingEdge="none" 
+        >
+
+        <RelativeLayout
+            android:id="@+id/chatLinear"
+            android:layout_width="fill_parent"
+            android:layout_height="500px"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/Chat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" 
+                />
+
+        </RelativeLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/send_chat"
+            android:layout_width="355px"
+            android:layout_height="70px"
+            android:layout_y="200px" />
+
+        <Button
+            android:id="@+id/send_chat_btn"
+            android:layout_width="125px"
+            android:layout_height="70px"
+            android:gravity="center"
+            android:text="보내기" />
+    </LinearLayout>
+
+</LinearLayout>
